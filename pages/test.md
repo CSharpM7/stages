@@ -1,6 +1,6 @@
 ## Test
 
-[![Image](https://github.com/CSharpM7/stages/blob/main/images/SpiralMountainIconSSBU.png?raw=true)](https://google.com)
+[![Image](https://github.com/CSharpM7/stages/blob/main/images/SpiralMountainIconSSBU.png?raw=true)](https://github.com/CSharpM7/stages/blob/main/pages/test.md)
 
 ## Welcome to GitHub Pages
 

@@ -1,5 +1,7 @@
 ## Test
 
+[![Image of a Kitten](https://github.com/CSharpM7/stages/blob/main/images/SpiralMountainIconSSBU.png?raw=true)[1]
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/CSharpM7/stages/edit/main/README.md) to maintain and preview the content for your website in Markdown files.

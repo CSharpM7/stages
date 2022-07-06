@@ -1,0 +1,53 @@
+#
+# Work based on https://github.com/mmistakes/minimal-mistakes/blob/master/_data/ui-text.yml
+#
+# Configuration: Add to _config.yml
+# locale: "en-US"  [YOUR PREFERRED LOCALE]
+#
+# How to use:
+# {{ site.data.ui-text[site.locale].<var_name> | default: 'text' }}
+
+# English (default)
+# -----------------
+en: &DEFAULT_EN
+  header:
+    title: Welcome to our Studio!
+    text: It's Nice To Meet You
+#    button: Tell Me More
+#    buttonlink: "#services"
+    
+  portfolio:
+    title: "C#'s Stage Info"
+    text: "Random information about random stages in smash ultimate; geared towards modders"
+    section: portfolio
+    closebutton: ""
+
+  clients:
+    section: clients
+    max-height: 0px
+  
+  footer:
+    legal: " "
+    social:
+      - url: https://twitter.com/CSharpM7
+        icon: "fab fa-twitter"
+      - url: https://github.com/CSharpM7
+        icon: "fab fa-github"
+        
+en-US:
+  <<: *DEFAULT_EN
+en-CA:
+  <<: *DEFAULT_EN
+en-GB:
+  <<: *DEFAULT_EN
+en-AU:
+  <<: *DEFAULT_EN
+
+# Spanish
+# -------
+es: &DEFAULT_ES
+  <<: *DEFAULT_EN
+es-ES:
+  <<: *DEFAULT_EN
+es-CO:
+  <<: *DEFAULT_EN

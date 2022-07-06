@@ -1,6 +1,6 @@
 ## Test
 
-[![Image of a Kitten](https://github.com/CSharpM7/stages/blob/main/images/SpiralMountainIconSSBU.png?raw=true)[1]
+[![Image of a Kitten](https://github.com/CSharpM7/stages/blob/main/images/SpiralMountainIconSSBU.png?raw=true)(https://google.com)
 
 ## Welcome to GitHub Pages
 

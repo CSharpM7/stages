@@ -10,9 +10,3 @@ caption:
   thumbnail: "https://ssb.wiki.gallery/images/d/d5/PokemonStadiumIconSSBU.png"
 ---
 Uhhh
-
-#{:.list-inline}
-#- Date: January 2017
-#- Client: Threads
-#- Category: Illustration
-

@@ -27,3 +27,4 @@ Here's a few shaders that I like to use, what they could be used for, and where 
 | 40 | sky_dth_set, Hollow Bastion | Supports a normal map for distortion |
 | fire | candel fire set, Dracula's Castle | A standard sprite sheet |
 | ChandelierFire | lobby_chandelier, Garreg Mach | An emissive shader with distortion. Great for fire! |
+| HouseWall | skyloft, Skyloft  | Has a diffuse and a baked lighting channel. This material somehow keeps the performance steady despite Skyloft's 100k+ polygons! |

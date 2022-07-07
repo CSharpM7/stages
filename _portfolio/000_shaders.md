@@ -13,7 +13,7 @@ caption:
 Having trouble with alpha channels? Try making sure that "Alpha Sample to Coverage" is set True. You might have to play around with Source and Destination color, too.
 Most PRM shaders on PS2's main ring are weird. Their Blue channel, normally dedicated to Ambient Occlusion, actually affects their baked lighting. I recommend avoiding these shaders unless you want to utilize the baked lighting affect.
 
-### Shaders I use
+### Shaders I Use
 Here's a few shaders that I like to use, what they could be used for, and where to find them.
 
 - natureal00 (bg_village,Town and City): A simple shader that only supports a diffuse channel. A great default shader as it can be affected by lighting, unlike most emissive shaders

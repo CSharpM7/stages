@@ -1,0 +1,13 @@
+---
+title: Battlefield
+subtitle: battlefield
+image: "https://ssb.wiki.gallery/images/thumb/8/86/SSBU-Battlefield.png/800px-SSBU-Battlefield.png"
+alt: 
+
+caption:
+  title: BF
+  subtitle: 
+  thumbnail: "https://ssb.wiki.gallery/images/a/ae/BattlefieldIconSSBU.png"
+---
+# Fun facts
+Did you know that this stage has a solar eclipse cycle instead of a day/night cycle? You can get rid of it by changing the stage parameters and the model folders associated with it

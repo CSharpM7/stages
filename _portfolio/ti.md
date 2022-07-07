@@ -7,7 +7,7 @@ alt:
 caption:
   title: SV
   subtitle: 
-  thumbnail: "https://ssb.wiki.gallery/images/7/71/TownandCityIconSSBU.png"
+  thumbnail: "https://ssb.wiki.gallery/images/3/30/TortimerIslandIconSSBU.png"
 ---
 # Main Mechanic
 This stage cycles through 4 different layouts. The 5th LVD file is for various common info, like tree collision.

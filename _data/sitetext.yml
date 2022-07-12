@@ -22,7 +22,7 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "What tools should I use?"
-        desc: "CrossMod for previewing models and assigning materials\ StudioSB for importing models and changing level collision\ SwitchToolbox for changing textures\ Blender for editing models"
+        desc: "CrossMod for previewing models and assigning materials <br/> StudioSB for importing models and changing level collision <br/> SwitchToolbox for changing textures <br/> Blender for editing models"
         icon: fas fa-solid fa-toolbox
       #- title: "Responsive Design"
       #  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."

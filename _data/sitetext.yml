@@ -33,6 +33,7 @@ en: &DEFAULT_EN
 
   portfolio:
     title: "C#'s Stage Info"
+    secondtitle: "C#'s Custom Stages"
     text: "Random information about random stages in smash ultimate; geared towards modders"
     section: portfolio
     closebutton: ""
@@ -48,9 +49,9 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
+      - title: "PictochatDX"
         url: "legal"
-        logo: assets/img/clients/envato.jpg
+        logo: https://ssb.wiki.gallery/images/thumb/0/07/SSBU-PictoChat_2.png/800px-SSBU-PictoChat_2.png
   
   footer:
     legal: " "

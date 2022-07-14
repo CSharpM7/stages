@@ -45,7 +45,12 @@ en: &DEFAULT_EN
 
   clients:
     section: clients
-    max-height: 0px
+    max-height: 100px
+    horizontal-scrolling: "" #"yes/no"
+    list:
+      - title: "envato"
+        url: "Privacy Policy"
+        logo: assets/img/clients/envato.jpg
   
   footer:
     legal: " "

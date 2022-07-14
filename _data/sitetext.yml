@@ -34,6 +34,7 @@ en: &DEFAULT_EN
   portfolio:
     title: "C#'s Stage Info"
     secondtitle: "C#'s Custom Stages"
+    max-height: 100px
     text: "Random information about random stages in smash ultimate; geared towards modders"
     section: portfolio
     closebutton: ""

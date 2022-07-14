@@ -49,7 +49,7 @@ en: &DEFAULT_EN
     horizontal-scrolling: "" #"yes/no"
     list:
       - title: "envato"
-        url: "Privacy Policy"
+        url: "legal"
         logo: assets/img/clients/envato.jpg
   
   footer:

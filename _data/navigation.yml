@@ -11,10 +11,8 @@
 # -----------------
 en: &DEFAULT_EN
   nav:
-#    - title: "Portfolio"
-#      section: portfolio
-    - title: "Theme Source"
-      url: https://github.com/raviriley/agency-jekyll-theme/
+    - title: " "
+      url: " "
 en-US:
   <<: *DEFAULT_EN
 en-CA:

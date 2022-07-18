@@ -28,6 +28,7 @@ author     : C#
 
 locale: "en-US" # See available languages in _data/sitetext.yml
 
+
 analytics:
   google: #Google Analytics tracking code here
 

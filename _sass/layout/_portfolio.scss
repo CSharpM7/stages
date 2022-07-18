@@ -111,13 +111,13 @@
     width: 75px;
     height: 75px;
     cursor: pointer;
-    background-color: #FF0000;
-    color: #FF0000;
+    background-color: transparent;
     &:hover {
       opacity: 0.3;
     }
     .lr {
       /* Safari and Chrome */
+      border-color: #FF0000;
       z-index: 1051;
       width: 1px;
       height: 75px;
@@ -129,6 +129,7 @@
       background-color: $white;
       .rl {
         /* Safari and Chrome */
+        border-color: #FF0000;
         z-index: 1052;
         width: 1px;
         height: 75px;

@@ -117,7 +117,7 @@
     }
     .lr {
       /* Safari and Chrome */
-      border-color: #FF0000;
+      border: 1px solid white;
       z-index: 1051;
       width: 1px;
       height: 75px;
@@ -129,7 +129,7 @@
       background-color: $white;
       .rl {
         /* Safari and Chrome */
-        border-color: #FF0000;
+        border: 1px solid white;
         z-index: 1052;
         width: 1px;
         height: 75px;

@@ -50,7 +50,7 @@ en: &DEFAULT_EN
         icon: fas fa-solid fa-toolbox
       - title: "What makes a mod not wifi safe?"
         desc: "Anything that changes gameplay is not wifi safe. Things like changing motion files of a moving platform, the lvd file or an stdat parameter can lead to desyncs."
-        icon: fas fa-solid fa-wifi-slash
+        icon: fas fa-solid fa-wifi
       #- title: "Responsive Design"
       #  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
       #  icon: fas fa-laptop

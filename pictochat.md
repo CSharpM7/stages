@@ -14,7 +14,7 @@ Stage scenes are in the order they appear in internal files
 | Original | Change | Notes | New |
 | :---:|:----:|:---:|:---:|
 | ![Noses](https://ssb.wiki.gallery/images/thumb/e/e4/Pictochat_2_Jellyfish.jpeg/175px-Pictochat_2_Jellyfish.jpeg)<br/>1| | | |
-| ![Car](https://ssb.wiki.gallery/images/thumb/8/8b/PictoChat_2_Car.jpg/175px-PictoChat_2_Car.jpg)<br/> 2| | | |
+| ![Car](https://ssb.wiki.gallery/images/thumb/8/8b/PictoChat_2_Car.jpg/175px-PictoChat_2_Car.jpg)<br/> 2| | Rigged | |
 | ![25M](https://ssb.wiki.gallery/images/thumb/6/6e/Pictochat_2_Donkey_Kong.jpeg/175px-Pictochat_2_Donkey_Kong.jpeg)<br/> 3| (Sorry TNN, this gotta go) | | |
 | ![Pac is Back](https://ssb.wiki.gallery/images/thumb/f/f6/Pictochat_2_PacPix.jpg/175px-Pictochat_2_PacPix.jpg)<br/> 4| The pac is baaaaaaack | | |
 | ![PaperPlanes](https://ssb.wiki.gallery/images/thumb/1/1f/PictoChat_2_Paper_Airplanes.jpeg/175px-PictoChat_2_Paper_Airplanes.jpeg)<br/> 5| | Rigged plats | |

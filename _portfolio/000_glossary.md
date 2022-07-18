@@ -12,6 +12,6 @@ caption:
 
 This is a table of commonly used phrases in either folder names, files names, or stdat parameters
 
-| Term | Notes | 
+| Term &nbsp; | &nbsp; Notes &nbsp; | 
 | :------------ | :---------- | 
 | natureal00 | bg_village, Town and City |

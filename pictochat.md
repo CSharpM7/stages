@@ -9,6 +9,15 @@ background: grey
 </div>
 <img class="img-fluid d-block mx-auto" src="https://ssb.wiki.gallery/images/thumb/0/07/SSBU-PictoChat_2.png/800px-SSBU-PictoChat_2.png" alt="">
 
+### Stencil Animation
+It seems that uvSet controls when a vertex gets drawn in. The motion file simply uses Vector31's X coordinate to create the drawing effect. There is also an erasing animation, probably leave the material part of these motion files alone if possible? Not sure how to extend the duration of these animations.
+For uvSet, the further the UV coordinate is to the right, the later it gets drawn. Most vertices are to the right of the center.
+
+### Scene Control
+erase_wait controls when the scene ends.
+Draw 1st wait SHOULD be for the first scene to start
+Not sure what draw wait does...apparently nothing? Hmmmm...
+
 Stage scenes are in the order they appear in internal files
 
 | Original | Change | Notes | New |
@@ -43,7 +52,7 @@ Stage scenes are in the order they appear in internal files
 | | | |
 | ![Sunset](https://ssb.wiki.gallery/images/thumb/4/41/PictoChat_2_Sunset.jpeg/175px-PictoChat_2_Sunset.jpeg)<br/> 21| Rigged plats | | |
 | ![Infinity](https://ssb.wiki.gallery/images/thumb/5/5a/PictoChat_2_Infinity.jpeg/175px-PictoChat_2_Infinity.jpeg)<br/> 22| | | |
-| ![Pen n Paper](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg)<br/> 23| | | |
+| ![Pen n Paper](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg)<br/> 23| | Writes one line, dabs ink, writes the next line | |
 | 24 is the background for the last 3 | | | | | |
 | ![Shooting Stars](https://ssb.wiki.gallery/images/thumb/2/27/PictoChat_2_Shooting_Star.jpeg/175px-PictoChat_2_Shooting_Star.jpeg)<br/> 25| | | |
 | ![Moon](https://ssb.wiki.gallery/images/thumb/8/86/PictoChat_2_Moon.jpeg/175px-PictoChat_2_Moon.jpeg)<br/> 26| Remove final dark phase | | |

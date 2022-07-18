@@ -9,6 +9,20 @@ caption:
   subtitle: 
   thumbnail: "https://w7.pngwing.com/pngs/930/207/png-transparent-pearl-material-sphere-pearl-balloon-download-with-transparent-background-free.png"
 ---
+<style>
+table th:first-of-type {
+    width: 10%;
+}
+table th:nth-of-type(2) {
+    width: 10%;
+}
+table th:nth-of-type(3) {
+    width: 50%;
+}
+table th:nth-of-type(4) {
+    width: 30%;
+}
+</style>
 
 ### Quick Tips
 Having trouble with alpha channels? Try making sure that "Alpha Sample to Coverage" is set True. You might have to play around with Source and Destination color, too.
@@ -17,7 +31,7 @@ Most PRM shaders on PS2's main ring are weird. Their Blue channel, normally dedi
 ### Shaders I Use
 Here's a few shaders that I like to use, what they could be used for, and where to find them.
 
-| <div style="width:290px">property</div>Original Name | <div style="width:290px">property</div>Location | <div style="width:290px">property</div>Description |
+| Original Name | Location | Description |
 | ----------| ----------| ----------|
 | natureal00 | bg_village, Town and City | A simple shader that only supports a diffuse channel. A great default shader as it can be affected by lighting, unlike most emissive shaders |
 | sea_01 | skysea, Tortimer | A great water shader that can support transparency, too! |

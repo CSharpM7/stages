@@ -9,8 +9,9 @@ background: grey
 </div>
 <img class="img-fluid d-block mx-auto" src="https://ssb.wiki.gallery/images/thumb/0/07/SSBU-PictoChat_2.png/800px-SSBU-PictoChat_2.png" alt="">
 
-# WARNING
-This is a note to the brave souls attempting to mod this stage: improper edits of numshb and numdlb files WILL cause your stage not to load. What are improper edits? Honestly...not sure atm. Mostly likely deals with vertex colors. Mod at your own risk.
+# Note to future pictochat modders
+For the brave souls attempting to mod this stage: improper edits of numshb and numdlb files WILL cause your stage not to load. To avoid crashes:
+- Make sure the meshes' names are the same as the source name (if you want a custom planeA mesh, make sure it is named `bone_005planeAShape` )
 
 ### Stencil Animation
 It seems that uvSet controls when a vertex gets drawn in. The motion file simply uses Vector31's X coordinate to create the drawing effect. There is also an erasing animation, probably leave the material part of these motion files alone if possible? Not sure how to extend the duration of these animations.

@@ -34,25 +34,25 @@ Stage scenes are in the order they appear in internal files. SNA: Should not att
 | ![Car](https://ssb.wiki.gallery/images/thumb/8/8b/PictoChat_2_Car.jpg/175px-PictoChat_2_Car.jpg)<br/> 2| Rigged hitbox, road shares model. `0x0e97f09501` could refer to spawns, `0x185e7df818` to something? | | |
 | ![25M](https://ssb.wiki.gallery/images/thumb/6/6e/Pictochat_2_Donkey_Kong.jpeg/175px-Pictochat_2_Donkey_Kong.jpeg)<br/> 3| `0x22dfd9ae4b` could be barrel spawn time,  `0x134ab3b224` cam pos | (Sorry TNN, this gotta go) Warioware! | |
 | ![Pac is Back](https://ssb.wiki.gallery/images/thumb/f/f6/Pictochat_2_PacPix.jpg/175px-Pictochat_2_PacPix.jpg)<br/> 4| `0x141ed28149` the speed of pac1 , `0x1422dfbe10` speed of other pacs  | The pac is (in the) baaaaaaack | |
-| ![PaperPlanes](https://ssb.wiki.gallery/images/thumb/1/1f/PictoChat_2_Paper_Airplanes.jpeg/175px-PictoChat_2_Paper_Airplanes.jpeg)<br/> 5| Plane spawn order is randomized| Fountain of Dreams (except middle platform also rises) | <img src="assets/img/pictochat/plane.png" alt="newlift" width="400"/> |
+| ![PaperPlanes](https://ssb.wiki.gallery/images/thumb/1/1f/PictoChat_2_Paper_Airplanes.jpeg/175px-PictoChat_2_Paper_Airplanes.jpeg)<br/> 5| Plane spawn order is randomized| Fountain of Dreams (except middle platform also rises) | <img src="assets/img/pictochat/plane.png" alt="newlift" width="175"/> |
 | | | |
 | | | |
-| ![1-2](https://ssb.wiki.gallery/images/thumb/e/ed/PictoChat_2_Girders.jpeg/175px-PictoChat_2_Girders.jpeg)<br/> 6| | Remove center box because of Cave of Life | <img src="assets/img/pictochat/lift.png" alt="newlift" width="400"/> |
+| ![1-2](https://ssb.wiki.gallery/images/thumb/e/ed/PictoChat_2_Girders.jpeg/175px-PictoChat_2_Girders.jpeg)<br/> 6| | Remove center box because of Cave of Life | <img src="assets/img/pictochat/lift.png" alt="newlift" width="175"/> |
 | ![Boots](https://ssb.wiki.gallery/images/thumb/0/06/PictoChat_2_Boots.jpeg/175px-PictoChat_2_Boots.jpeg)<br/> 7| Rigged hitbox and burybox. Motion handled internally? | hitboxes removed, not sure what to do with this | |
 | ![Poles](https://ssb.wiki.gallery/images/thumb/1/14/PictoChat_2_Poles.jpeg/175px-PictoChat_2_Poles.jpeg)<br/> 8| | Remain the same |![NewPoles](https://ssb.wiki.gallery/images/thumb/1/14/PictoChat_2_Poles.jpeg/175px-PictoChat_2_Poles.jpeg) |
 | ![Cloud](https://ssb.wiki.gallery/images/thumb/6/69/PictoChat_2_Clouds.jpeg/175px-PictoChat_2_Clouds.jpeg)<br/> 9| `0x1880339f33-0x18c216984e` cloud speed? | If we can move the cloud position that'd be nice | |
-| ![Seesaw](https://ssb.wiki.gallery/images/thumb/2/20/PictoChat_2_Seesaw.jpeg/175px-PictoChat_2_Seesaw.jpeg)<br/> 10| | Lowkey keep the same | |
+| ![Seesaw](https://ssb.wiki.gallery/images/thumb/2/20/PictoChat_2_Seesaw.jpeg/175px-PictoChat_2_Seesaw.jpeg)<br/> 10| | Lowkey keep the same | ![NewSeesaw](https://ssb.wiki.gallery/images/thumb/2/20/PictoChat_2_Seesaw.jpeg/175px-PictoChat_2_Seesaw.jpeg) |
 | | | |
 | | | |
 | ![Sparks](https://ssb.wiki.gallery/images/thumb/f/f0/PictoChat_2_Sparks.jpeg/175px-PictoChat_2_Sparks.jpeg)<br/> 11| `0x0d16ab9468` determines boundaries. Rigged electric hitbox; plats share model | PM Green Hill? | |
-| ![Faucet](https://ssb.wiki.gallery/images/thumb/1/15/Pictochat_2_Faucet.jpg/175px-Pictochat_2_Faucet.jpg)<br/> 12| Conveyor belt + LVD material change? | SNA |
+| ![Faucet](https://ssb.wiki.gallery/images/thumb/1/15/Pictochat_2_Faucet.jpg/175px-Pictochat_2_Faucet.jpg)<br/> 12| Conveyor belt + LVD material change? | SNA | ![NewFaucet](https://ssb.wiki.gallery/images/thumb/1/15/Pictochat_2_Faucet.jpg/175px-Pictochat_2_Faucet.jpg) |
 | ![Tornado](https://ssb.wiki.gallery/images/thumb/1/10/PictoChat_2_Tornado.jpeg/175px-PictoChat_2_Tornado.jpeg)<br/> 13| Windbox? `0x164b50cfc7 / 0x1735f08633` correlate to left and right tornado power | | |
 | ![Gusty Gus](https://ssb.wiki.gallery/images/thumb/8/82/PictoChat_2_Gusty_Gus_2.jpeg/175px-PictoChat_2_Gusty_Gus_2.jpeg)<br/> 14| Windbox? `area_rect_info` | Randall? | |
 | ![Staring Contest](https://ssb.wiki.gallery/images/thumb/9/92/PictoChat_2_Staring_Contest.jpeg/175px-PictoChat_2_Staring_Contest.jpeg)<br/> 15| `0x1f09a6de89`? | | |
 | | | |
 | | | |
 | ![Pipes](https://ssb.wiki.gallery/images/thumb/9/90/Pictochat_2_Pipes.jpg/175px-Pictochat_2_Pipes.jpg)<br/> 16| Each pipe has a skeleton attached to it. Could be used for something CRAZY... | Remove warp mechanic, make Town and City | |
-| ![Road](https://ssb.wiki.gallery/images/thumb/e/e8/PictoChat_2_Road.jpg/175px-PictoChat_2_Road.jpg)<br/> 17| | Remove BG collision | |
+| ![Road](https://ssb.wiki.gallery/images/thumb/e/e8/PictoChat_2_Road.jpg/175px-PictoChat_2_Road.jpg)<br/> 17| | Remove BG collision | ![NewRoad](https://ssb.wiki.gallery/images/thumb/e/e8/PictoChat_2_Road.jpg/175px-PictoChat_2_Road.jpg) |
 | ![Dolphin](https://ssb.wiki.gallery/images/thumb/d/d9/Pictochat_2_Dolphins.jpeg/175px-Pictochat_2_Dolphins.jpeg)<br/> 18| Time delay likely tied to this. Position controlled via animation | | |
 | ![Escalator](https://ssb.wiki.gallery/images/thumb/3/34/PictoChat_2_Elevator.jpeg/175px-PictoChat_2_Elevator.jpeg)<br/> 19| Conveyor Belt | SNA? If we could figure this out, this can be BF | |
 | ![Clock](https://ssb.wiki.gallery/images/thumb/4/4e/PictoChat_2_Clock.jpeg/175px-PictoChat_2_Clock.jpeg)<br/> 20| clock controls position of hands. Clock can spawn on the left or right. Might be controlled by bin files, same with rotation. `0x17c9f8dcb6` controls how long this lasts. `0x19b99af1fd` speed of drawing? | If we could only control where this spawns... | |
@@ -60,7 +60,7 @@ Stage scenes are in the order they appear in internal files. SNA: Should not att
 | | | |
 | ![Sunset](https://ssb.wiki.gallery/images/thumb/4/41/PictoChat_2_Sunset.jpeg/175px-PictoChat_2_Sunset.jpeg)<br/> 21| THERE'S NO COLLIDER IN THE LVD FILE FOR THE SUN?!?!? | | |
 | ![Infinity](https://ssb.wiki.gallery/images/thumb/5/5a/PictoChat_2_Infinity.jpeg/175px-PictoChat_2_Infinity.jpeg)<br/> 22| Chooses a random set of platforms to be active | | |
-| ![Pen n Paper](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg)<br/> 23| Writes one line, dabs ink, writes the next line. Lines appear in random? spots disappear eventually. `0x17646e65d2` should refer to this. | | |
+| ![Pen n Paper](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg)<br/> 23| Writes one line, dabs ink, writes the next line. Lines appear in random? spots disappear eventually. `0x17646e65d2` should refer to this. | | ![NewPen](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg) |
 | | | |
 | 24 is the background for the last 3 | There's no collision on these scenes either | | | | |
 | ![Shooting Stars](https://ssb.wiki.gallery/images/thumb/2/27/PictoChat_2_Shooting_Star.jpeg/175px-PictoChat_2_Shooting_Star.jpeg)<br/> 25| | | |

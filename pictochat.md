@@ -12,6 +12,8 @@ background: grey
 # Note to future pictochat modders
 For the brave souls attempting to mod this stage: improper edits of numshb and numdlb files WILL cause your stage not to load. To avoid crashes:
 - Make sure the meshes' names are the same as the source name (if you want a custom planeA mesh, make sure it is named `bone_005planeAShape` )
+- When exporting via carlos tools, don't forget to reassign the bones to the mesh in studioSB/ssbh_e! Meshes won't appear if they aren't assigned the proper bone
+- I recommend not removing meshes, but instead either grey them out (use an HSV of 0,0,0.259993 for vertex colors) and put them somewhat behind the stage (z of -35) to still show that a current scene is active
 
 ### Stencil Animation
 It seems that uvSet controls when a vertex gets drawn in. The motion file simply uses Vector31's X coordinate to create the drawing effect. There is also an erasing animation, probably leave the material part of these motion files alone if possible? Not sure how to extend the duration of these animations.
@@ -35,7 +37,7 @@ Stage scenes are in the order they appear in internal files. SNA: Should not att
 | ![PaperPlanes](https://ssb.wiki.gallery/images/thumb/1/1f/PictoChat_2_Paper_Airplanes.jpeg/175px-PictoChat_2_Paper_Airplanes.jpeg)<br/> 5| Plane spawn order is randomized| Fountain of Dreams (except middle platform also rises) | |
 | | | |
 | | | |
-| ![1-2](https://ssb.wiki.gallery/images/thumb/e/ed/PictoChat_2_Girders.jpeg/175px-PictoChat_2_Girders.jpeg)<br/> 6| | Remove center box because of Cave of Life | |
+| ![1-2](https://ssb.wiki.gallery/images/thumb/e/ed/PictoChat_2_Girders.jpeg/175px-PictoChat_2_Girders.jpeg)<br/> 6| | Remove center box because of Cave of Life | ![NewLift](assets/img/pictochat/lift.png) |
 | ![Boots](https://ssb.wiki.gallery/images/thumb/0/06/PictoChat_2_Boots.jpeg/175px-PictoChat_2_Boots.jpeg)<br/> 7| Rigged hitbox and burybox. Motion handled internally? | hitboxes removed, not sure what to do with this | |
 | ![Poles](https://ssb.wiki.gallery/images/thumb/1/14/PictoChat_2_Poles.jpeg/175px-PictoChat_2_Poles.jpeg)<br/> 8| | Remain the same |![NewPoles](https://ssb.wiki.gallery/images/thumb/1/14/PictoChat_2_Poles.jpeg/175px-PictoChat_2_Poles.jpeg) |
 | ![Cloud](https://ssb.wiki.gallery/images/thumb/6/69/PictoChat_2_Clouds.jpeg/175px-PictoChat_2_Clouds.jpeg)<br/> 9| `0x1880339f33-0x18c216984e` cloud speed? | If we can move the cloud position that'd be nice | |

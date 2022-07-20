@@ -9,14 +9,14 @@ background: grey
 </div>
 <img class="img-fluid d-block mx-auto" src="https://ssb.wiki.gallery/images/thumb/0/07/SSBU-PictoChat_2.png/800px-SSBU-PictoChat_2.png" alt="">
 
+# WARNING
+This is a note to the brave souls attempting to mod this stage: improper edits of numshb and numdlb files WILL cause your stage not to load. What are improper edits? Honestly...not sure atm. Mostly likely deals with vertex colors. Mod at your own risk.
+
 ### Stencil Animation
 It seems that uvSet controls when a vertex gets drawn in. The motion file simply uses Vector31's X coordinate to create the drawing effect. There is also an erasing animation, probably leave the material part of these motion files alone if possible? Not sure how to extend the duration of these animations.
 
 For uvSet, the further the UV coordinate is to the right, the later it gets drawn. Most vertices are to the right of the center.
 
-Some model file changes COULD be dangerous and cause crashes...will research this more.
-Numdlb changing is dangerous.
-Model edits with the wrong vertex colors can crash
 
 ### Scene Control
 erase_wait controls when the scene ends<br/>

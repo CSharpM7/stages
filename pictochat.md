@@ -33,11 +33,11 @@ Stage scenes are in the order they appear in internal files. SNA: Should not att
 | ![Noses](https://ssb.wiki.gallery/images/thumb/e/e4/Pictochat_2_Jellyfish.jpeg/175px-Pictochat_2_Jellyfish.jpeg)<br/>1| `0x1ae8d0ec87` refers to their wander range | Platforms that move up and down and wander around | |
 | ![Car](https://ssb.wiki.gallery/images/thumb/8/8b/PictoChat_2_Car.jpg/175px-PictoChat_2_Car.jpg)<br/> 2| Rigged hitbox, road shares model. `0x0e97f09501` could refer to spawns, `0x185e7df818` to something? | | |
 | ![25M](https://ssb.wiki.gallery/images/thumb/6/6e/Pictochat_2_Donkey_Kong.jpeg/175px-Pictochat_2_Donkey_Kong.jpeg)<br/> 3| `0x22dfd9ae4b` could be barrel spawn time,  `0x134ab3b224` cam pos | (Sorry TNN, this gotta go) Warioware! | |
-| ![Pac is Back](https://ssb.wiki.gallery/images/thumb/f/f6/Pictochat_2_PacPix.jpg/175px-Pictochat_2_PacPix.jpg)<br/> 4| `0x141ed28149` the speed of pac1 , `0x1422dfbe10` speed of other pacs  | The pac is baaaaaaack | |
-| ![PaperPlanes](https://ssb.wiki.gallery/images/thumb/1/1f/PictoChat_2_Paper_Airplanes.jpeg/175px-PictoChat_2_Paper_Airplanes.jpeg)<br/> 5| Plane spawn order is randomized| Fountain of Dreams (except middle platform also rises) | |
+| ![Pac is Back](https://ssb.wiki.gallery/images/thumb/f/f6/Pictochat_2_PacPix.jpg/175px-Pictochat_2_PacPix.jpg)<br/> 4| `0x141ed28149` the speed of pac1 , `0x1422dfbe10` speed of other pacs  | The pac is (in the) baaaaaaack | |
+| ![PaperPlanes](https://ssb.wiki.gallery/images/thumb/1/1f/PictoChat_2_Paper_Airplanes.jpeg/175px-PictoChat_2_Paper_Airplanes.jpeg)<br/> 5| Plane spawn order is randomized| Fountain of Dreams (except middle platform also rises) | ![NewPlane](assets/img/pictochat/plane.png) |
 | | | |
 | | | |
-| ![1-2](https://ssb.wiki.gallery/images/thumb/e/ed/PictoChat_2_Girders.jpeg/175px-PictoChat_2_Girders.jpeg)<br/> 6| | Remove center box because of Cave of Life | ![NewLift](assets/img/pictochat/lift.png) |
+| ![1-2](https://ssb.wiki.gallery/images/thumb/e/ed/PictoChat_2_Girders.jpeg/175px-PictoChat_2_Girders.jpeg)<br/> 6| | Remove center box because of Cave of Life | <img src="assets/img/pictochat/lift.png" alt="newlift" width="200"/> |
 | ![Boots](https://ssb.wiki.gallery/images/thumb/0/06/PictoChat_2_Boots.jpeg/175px-PictoChat_2_Boots.jpeg)<br/> 7| Rigged hitbox and burybox. Motion handled internally? | hitboxes removed, not sure what to do with this | |
 | ![Poles](https://ssb.wiki.gallery/images/thumb/1/14/PictoChat_2_Poles.jpeg/175px-PictoChat_2_Poles.jpeg)<br/> 8| | Remain the same |![NewPoles](https://ssb.wiki.gallery/images/thumb/1/14/PictoChat_2_Poles.jpeg/175px-PictoChat_2_Poles.jpeg) |
 | ![Cloud](https://ssb.wiki.gallery/images/thumb/6/69/PictoChat_2_Clouds.jpeg/175px-PictoChat_2_Clouds.jpeg)<br/> 9| `0x1880339f33-0x18c216984e` cloud speed? | If we can move the cloud position that'd be nice | |

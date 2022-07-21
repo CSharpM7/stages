@@ -46,7 +46,7 @@ en: &DEFAULT_EN
     section: services
     list:
       - title: "What tools should I use?"
-        desc: "[CrossMod](https://github.com/M-1-RLG/CrossMod) or [SSBH_Editor](https://github.com/ScanMountGoat/ssbh_editor) for previewing models and assigning materials <br/> [StudioSB](https://github.com/Ploaj/StudioSB) for importing models and changing level collision <br/> [SwitchToolbox](https://github.com/KillzXGaming/Switch-Toolbox) for changing textures <br/> Blender (and [carlos' tools](https://github.com/ssbucarlos/smash-ultimate-blender)) for editing models <br/> [Smush Material Research](https://github.com/ScanMountGoat/Smush-Material-Research) for material/light/xml info. Contains links for XML_lib and SmashDataTOJson for additional editing <br/>"
+        desc: "[CrossMod](https://github.com/M-1-RLG/CrossMod) or [SSBH_Editor](https://github.com/ScanMountGoat/ssbh_editor) for previewing models and assigning materials <br/> [StudioSB](https://github.com/Ploaj/StudioSB) for importing models and changing level collision <br/> [SwitchToolbox](https://github.com/KillzXGaming/Switch-Toolbox) for changing textures <br/> Blender (and [carlos' tools](https://github.com/ssbucarlos/smash-ultimate-blender)) for editing models <br/> [Smush Material Research](https://github.com/ScanMountGoat/Smush-Material-Research) for material/light/xml info. Contains links for XML(exe) and ssbh_data_json for additional editing <br/>"
         icon: fas fa-solid fa-toolbox
       - title: "What makes a mod not wifi safe?"
         desc: "Anything that changes gameplay is not wifi safe. Things like changing motion files of a moving platform, the lvd file or an stdat parameter can lead to desyncs."

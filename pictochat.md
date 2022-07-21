@@ -76,7 +76,7 @@ Stage scenes are in the order they appear in internal files. SNA: Should not att
 |22 | ![Infinity](https://ssb.wiki.gallery/images/thumb/5/5a/PictoChat_2_Infinity.jpeg/175px-PictoChat_2_Infinity.jpeg)| Chooses a random set of platforms to be active | Walls | <img src="assets/img/pictochat/infinity.png" alt="newinfinity" width="175"/> |
 |23 | ![Pen n Paper](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg)| Writes one line, dabs ink, writes the next line. Lines appear in random? spots disappear eventually. `0x17646e65d2` should refer to this. | |![NewPen](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg) |
 | | | | |
-|24 | background for the last 3 | There's no collision on these scenes either | This scene can also load on its own without any of the next 3 gimmicks | | | | |
+|24 | <img src="assets/img/pictochat/dark.png" alt="dark" width="175"/>  | Background for the last 3. This scene can also load on its own without any of the next 3 gimmicks |  | | | | |
 |25 | ![Shooting Stars](https://ssb.wiki.gallery/images/thumb/2/27/PictoChat_2_Shooting_Star.jpeg/175px-PictoChat_2_Shooting_Star.jpeg)| `0x1518a1ffbc` | | | |
 |26 | ![Moon](https://ssb.wiki.gallery/images/thumb/8/86/PictoChat_2_Moon.jpeg/175px-PictoChat_2_Moon.jpeg)| `0x186ce6a6ec` scene length. `0x1f0bc8f27d` has some influence on blackout effect |Remove final dark phase | |
 |27 | ![Flashlight](https://ssb.wiki.gallery/images/thumb/b/b3/PictoChat_2_Policeman.jpeg/175px-PictoChat_2_Policeman.jpeg)| | | | |

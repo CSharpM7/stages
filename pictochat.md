@@ -29,23 +29,18 @@ The last draw is the wait range after the first cycle finishes. By cycle, I mean
 Stage scenes are in the order they appear in internal files. SNA: Should not attempt, probably make it another FD.
 
 ### TODO:
-- [ ] SFX
-- [ ] UI
-- [X] Add Pipes to back of 1-2
-- [ ] Disable Stars
-- [X] Disable Flashlight?
-- [ ] Dolphins to Platform
-- [X] Grey faucet water, tornado, remove road from street scene
-- [X] Car Scene
-- [X] Sparks Scene
-- [ ] Pipes Scene to GHZ
-- [ ] Cloud scene
-- [ ] Randall over Gusty Gus
-- [ ] Figure out Sunset Collision
-- [ ] Staring Contest?
-- [ ] Disable Clock
-- [ ] Disable Boots?
-- [ ] Disable Pac Attack
+- SFX
+- UI
+- Dolphins to GHZ
+- Pipes Scene to...idk...
+- Gusty Gus to...idk...
+- Staring Contest?
+### Might not be possible:
+- Disable Clock
+- Disable Stars
+- Disable Boots?
+- Disable Pac Attack
+- Figure out Sunset Collision
 
 | # | Original | Notes | Change | New |
 | :-: |:---:|:----:|:---:|:---:|

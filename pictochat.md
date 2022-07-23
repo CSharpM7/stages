@@ -31,20 +31,16 @@ Stage scenes are in the order they appear in internal files. SNA: Should not att
 ### TODO:
 - SFX
 - UI
-- Dolphins to GHZ
-- Pipes Scene to...idk...
-- Gusty Gus to...idk...
-- Staring Contest?
 ### Might not be possible:
-- Disable Clock
 - Disable Stars
-- Disable Boots?
+- Rework Noses
+- Rework Boots?
 - Disable Pac Attack
 - Figure out Sunset Collision
 
 | # | Original | Notes | Change | New |
 | :-: |:---:|:----:|:---:|:---:|
-|1 | ![Noses](https://ssb.wiki.gallery/images/thumb/e/e4/Pictochat_2_Jellyfish.jpeg/175px-Pictochat_2_Jellyfish.jpeg)| `0x1ae8d0ec87` refers to their wander range | Platforms that move up and down and wander around | |
+|1 | ![Noses](https://ssb.wiki.gallery/images/thumb/e/e4/Pictochat_2_Jellyfish.jpeg/175px-Pictochat_2_Jellyfish.jpeg)| `0x1ae8d0ec87` refers to their wander range. `0x1c597b31ed or 0x1c65760eb4` might control time for each jump? | Platforms that move up and down and wander around | <img src="assets/img/pictochat/nose.png" alt="newnose" width="175"/> |
 |2 | ![Car](https://ssb.wiki.gallery/images/thumb/8/8b/PictoChat_2_Car.jpg/175px-PictoChat_2_Car.jpg)| `0x0e97f09501` could refer to spawns, `0x185e7df818` to something? | NC | <img src="assets/img/pictochat/road.png" alt="newroad" width="175"/> |
 |3 | ![25M](https://ssb.wiki.gallery/images/thumb/6/6e/Pictochat_2_Donkey_Kong.jpeg/175px-Pictochat_2_Donkey_Kong.jpeg)| `0x22dfd9ae4b` could be barrel spawn time,  `0x134ab3b224` cam pos | (Sorry TNN, this gotta go) Warioware! | <img src="assets/img/pictochat/dk.png" alt="newdk" width="175"/> |
 |4 | ![Pac is Back](https://ssb.wiki.gallery/images/thumb/f/f6/Pictochat_2_PacPix.jpg/175px-Pictochat_2_PacPix.jpg)| `0x141ed28149` the speed of pac1 , `0x1422dfbe10` speed of other pacs. 0x17329e7064 onward deal with pac coordinates. 0x170ffe59d4 is x 0x141ed28149 is y  | Hardcoded collision, pacmen will spawn offscreen| |
@@ -61,11 +57,11 @@ Stage scenes are in the order they appear in internal files. SNA: Should not att
 |11 | ![Sparks](https://ssb.wiki.gallery/images/thumb/f/f0/PictoChat_2_Sparks.jpeg/175px-PictoChat_2_Sparks.jpeg)| `0x0d16ab9468` determines boundaries. Rigged electric hitbox; plats share model | Smashville but huge |  <img src="assets/img/pictochat/spark.png" alt="newspark" width="175"/> |
 |12 | ![Faucet](https://ssb.wiki.gallery/images/thumb/1/15/Pictochat_2_Faucet.jpg/175px-Pictochat_2_Faucet.jpg)| Conveyor belt + LVD material change? | Water is brighter | <img src="assets/img/pictochat/water.png" alt="newfaucet" width="175"/> |
 |13 | ![Tornado](https://ssb.wiki.gallery/images/thumb/1/10/PictoChat_2_Tornado.jpeg/175px-PictoChat_2_Tornado.jpeg)| Windbox? `0x164b50cfc7 / 0x1735f08633` correlate to left and right tornado power | Tornado greyed and inactive | |
-|14 | ![Gusty Gus](https://ssb.wiki.gallery/images/thumb/8/82/PictoChat_2_Gusty_Gus_2.jpeg/175px-PictoChat_2_Gusty_Gus_2.jpeg)| Windbox? `area_rect_info` | Randall? | |
-|15 | ![Staring Contest](https://ssb.wiki.gallery/images/thumb/9/92/PictoChat_2_Staring_Contest.jpeg/175px-PictoChat_2_Staring_Contest.jpeg)| `0x1f09a6de89`? | Oh man wtf | |
+|14 | ![Gusty Gus](https://ssb.wiki.gallery/images/thumb/8/82/PictoChat_2_Gusty_Gus_2.jpeg/175px-PictoChat_2_Gusty_Gus_2.jpeg)| Windbox? `area_rect_info` | smaller gus, added platform | <img src="assets/img/pictochat/gus.png" alt="newgus" width="175"/> |
+|15 | ![Staring Contest](https://ssb.wiki.gallery/images/thumb/9/92/PictoChat_2_Staring_Contest.jpeg/175px-PictoChat_2_Staring_Contest.jpeg)| `0x156d69d853` could be restart timer | Removed heart/spark | |
 | | | | |
 | | | | |
-|16 | ![Pipes](https://ssb.wiki.gallery/images/thumb/9/90/Pictochat_2_Pipes.jpg/175px-Pictochat_2_Pipes.jpg)| Each pipe has a skeleton attached to it. Could be used for something CRAZY... | Remove warp mechanic, make GHZ | |
+|16 | ![Pipes](https://ssb.wiki.gallery/images/thumb/9/90/Pictochat_2_Pipes.jpg/175px-Pictochat_2_Pipes.jpg)| Each pipe has a skeleton attached to it. Could be used for something CRAZY... | Remove warp mechanic | <img src="assets/img/pictochat/pipe.png" alt="newpipe" width="175"/> |
 |17 | ![Road](https://ssb.wiki.gallery/images/thumb/e/e8/PictoChat_2_Road.jpg/175px-PictoChat_2_Road.jpg)| | Remove BG collision | <img src="assets/img/pictochat/street.png" alt="newstreet" width="175"/>|
 |18 | ![Dolphin](https://ssb.wiki.gallery/images/thumb/d/d9/Pictochat_2_Dolphins.jpeg/175px-Pictochat_2_Dolphins.jpeg)| Time delay likely tied to this. Position controlled via animation | Platforms come into the stage randomly | <img src="assets/img/pictochat/dolphin.png" alt="newdolphin" width="175"/> |
 |19 | ![Escalator](https://ssb.wiki.gallery/images/thumb/3/34/PictoChat_2_Elevator.jpeg/175px-PictoChat_2_Elevator.jpeg)| Conveyor Belt | BF | <img src="assets/img/pictochat/bf.png" alt="neweska" width="175"/> |
@@ -73,8 +69,8 @@ Stage scenes are in the order they appear in internal files. SNA: Should not att
 | | | | |
 | | | | |
 |21 | ![Sunset](https://ssb.wiki.gallery/images/thumb/4/41/PictoChat_2_Sunset.jpeg/175px-PictoChat_2_Sunset.jpeg)| Hardcoded collision | Nothing can be done about this :( | ![Sunset](https://ssb.wiki.gallery/images/thumb/4/41/PictoChat_2_Sunset.jpeg/175px-PictoChat_2_Sunset.jpeg) |
-|22 | ![Infinity](https://ssb.wiki.gallery/images/thumb/5/5a/PictoChat_2_Infinity.jpeg/175px-PictoChat_2_Infinity.jpeg)| Chooses a random set of platforms to be active | Walls | <img src="assets/img/pictochat/infinity.png" alt="newinfinity" width="175"/> |
-|23 | ![Pen n Paper](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg)| Writes one line, dabs ink, writes the next line. Lines appear in random? spots disappear eventually. `0x17646e65d2` should refer to this. | |![NewPen](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg) |
+|22 | ![Infinity](https://ssb.wiki.gallery/images/thumb/5/5a/PictoChat_2_Infinity.jpeg/175px-PictoChat_2_Infinity.jpeg)| Chooses a random set of platforms to be active | Walls...haven't seen this in awhile | <img src="assets/img/pictochat/infinity.png" alt="newinfinity" width="175"/> |
+|23 | ![Pen n Paper](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg)| `0x15d3a58fe2` start time. Writes one line, dabs ink, writes the next line. Lines appear in random? spots disappear eventually. `0x17d8af066b` should refer to this. | |![NewPen](https://ssb.wiki.gallery/images/thumb/6/6a/PictoChat_2_Script.jpeg/175px-PictoChat_2_Script.jpeg) |
 | | | | |
 | | | | |
 |24 | <img src="assets/img/pictochat/dark.png" alt="dark" width="175"/>  | Background for the last 3. This scene can also load on its own without any of the next 3 gimmicks. Only one of these four scenes will load per cycle. |  | | | | |

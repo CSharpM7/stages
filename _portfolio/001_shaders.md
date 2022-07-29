@@ -20,6 +20,7 @@ Here's a few shaders that I like to use, what they could be used for, and where 
 | Original Name | Location | Description |
 | ----------| ----------| ----------|
 | natureal00 | bg_village, Town and City | A simple shader that only supports a diffuse channel. A great default shader as it can be affected by lighting, unlike most emissive shaders |
+| sfx_55_car01 | stc_grasecar_set, Smashville | A simple shader that only supports a diffuse channel. A great default shader as it can be affected by lighting, unlike most emissive shaders |
 | sea_01 | skysea, Tortimer | A great water shader that can support transparency, too! |
 | NoBake_Taki_01_mat | chikei, Gaur Plains | A diffuse shader with scrolling uv channel |
 | spark | magma wall, Norfair | An emissive shader with scrolling uv channel |

@@ -20,6 +20,8 @@ Here's a few shaders that I like to use, what they could be used for, and where 
 | Original Name | Location | Description |
 | ----------| ----------| ----------|
 | natureal00 | bg_village, Town and City | A simple shader that only supports a diffuse channel. A great default shader as it can be affected by lighting, unlike most emissive shaders |
+| sfx_55_car01 | stc_gracecar_set, Smashville | A simple shader that supports PRM. This unique shader doesn't require a vertex color set nor a baked lighting map. However, it might ignore shadows and vertex colors |
+| a_ring_ironaC | dyr_ring_set, Norfair | A simple shader that supports PRM. This does require a baked channel, but it also supports vertex colors and shadows |
 | sfx_55_car01 | stc_grasecar_set, Smashville | A simple shader that only supports a diffuse channel. A great default shader as it can be affected by lighting, unlike most emissive shaders |
 | sea_01 | skysea, Tortimer | A great water shader that can support transparency, too! |
 | NoBake_Taki_01_mat | chikei, Gaur Plains | A diffuse shader with scrolling uv channel |

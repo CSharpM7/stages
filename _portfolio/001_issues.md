@@ -10,14 +10,14 @@ caption:
   thumbnail: assets/img/portfolio/boss.png
 ---
 
-This is a table of commonly used phrases in either folder names, files names, or stdat parameters
+This contains common issues with stages that are unfixable at the moment.
 
-| |
-| :- | 
-| **normal**: The vanilla, normal version of the stage |
-| **battle**: The omega, as well as the battlefield forms of the stage |
-| **ring**: The primary platform or ground of the stage |
-| **ashiba / plate**: Platforms |
-| **sub_set**: Shadows for platforms or other models |
-| **hikari**: Lights |
-| **dokan**: (Warp) Pipes |
+## Fixed Camera
+Many retro-styled stages (Mario Bros, Flat Zone) use a Fixed Camera, instead of the default camera that will zoom in and out for fighters. Unfortunately, most camera-related issues are hardcoded.
+
+## The Superbosses
+These stages are *affectionately* known as the Superbosses of the stage dev community, for their problems are either extremely complicated, or extremely specific, and required internal code edits that are not known about
+- Mushroomy Kingdom
+- Summit
+- Pacland
+- Mario Maker

@@ -24,9 +24,9 @@ Here's a few shaders that I like to use, what they could be used for, and where 
 | guest_rcc_b | dys_guest_rcc_set, Town and City | A shader that only has a diffuse channel. No vertex colors, but supports shadows |
 | SFX_ring_citymetal | dyr_ring_village_set, Town and City | A simple shader that supports PRM. This unique PRM shader doesn't require a baked lighting map, but still supports shadows |
 
-| Specialized Standard Shaders |
+| Specialized Standard Shaders || |
 | ----------| ----------| ----------|
-| sfx_39_moss_bl | s65_base, Distant Planet  | Has a diffuse and baked AO channel, and supports shadows |
+| sfx_39_moss_bl | s65_base, Distant Planet  | Has a diffuse and baked AO channel, and supports shadows. You can use defaultwhite on the baked AO channel if you don't have any AO |
 | a_ring_ironaC | dyr_ring_set, Norfair | A simple shader that supports PRM and shadows. This does require a baked GAO channel that the default white texture can be used to ignore it |
 | HouseWall | skyloft, Skyloft  | Has a diffuse and a baked lighting channel. This material somehow keeps the performance steady despite Skyloft's 100k+ polygons! |
 

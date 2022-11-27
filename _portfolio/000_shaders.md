@@ -20,25 +20,29 @@ Here's a few shaders that I like to use, what they could be used for, and where 
 | Original Name | Location | Description |
 | ----------| ----------| ----------|
 | Standard Shaders |
-| sfx_naturereal00 | dyr_bg_village_set, Town and City | The most bare bones stage shader. A diffuse channel that supports vertex colors |
-| sfx_NoBake_Sand_01 | stc_bg_chikei_set, Gaur Plains | Similar to naturereal but also uses a far render pass |
-| SFX_ring_citymetal | dyr_ring_village_set, Town and City | A simple shader that supports PRM. This unique PRM shader doesn't require a baked lighting map |
+| sfx_naturereal00 | dyr_bg_village_set, Town and City | The most bare bones stage shader. A diffuse channel that supports vertex colors, but doesn't support shadows |
+| guest_rcc_b | dys_guest_rcc_set, Town and City | A shader that only has a diffuse channel. No vertex colors, but supports shadows |
+| SFX_ring_citymetal | dyr_ring_village_set, Town and City | A simple shader that supports PRM. This unique PRM shader doesn't require a baked lighting map, but still supports shadows |
+
+| Specialized Standard Shaders |
+| ----------| ----------| ----------|
+| sfx_39_moss_bl | s65_base, Distant Planet  | Has a diffuse and baked AO channel, and supports shadows |
 | a_ring_ironaC | dyr_ring_set, Norfair | A simple shader that supports PRM and shadows. This does require a baked GAO channel that the default white texture can be used to ignore it |
 | HouseWall | skyloft, Skyloft  | Has a diffuse and a baked lighting channel. This material somehow keeps the performance steady despite Skyloft's 100k+ polygons! |
 
-| Skybox Shaders | | |
-| ----------| ----------| ----------|
-| sfx_phonh6_phong3... | far_set, Windy Hill | Emissive Skybox with a scrolling texture |
 
 | Scrolling Textures | | |
 | ----------| ----------| ----------|
 | NoBake_Taki_01_mat | chikei, Gaur Plains | A diffuse shader with scrolling uv channel |
 | spark | magma wall, Norfair | An emissive shader with scrolling uv channel |
+| sfx_phonh6_phong3... | far_set, Windy Hill | Emissive Skybox with a scrolling texture |
 
 | Misc Shaders | | |
 | ----------| ----------| ----------|
 | sea_01 | skysea, Tortimer | A great water shader that can support transparency, too! |
+| sfx_chikei3_18_water | chikei03_set, SMW Yoshi's | Water shader that supports shadows |
 | light04 | ring, PS2 | Useful for most lighting effects that involve a texture with a black background |
 | rock_multi | remains, Rathalos Stage | Supports two blended textures, ie grass and rock |
 | fire | candel fire set, Dracula's Castle | A standard sprite sheet |
 | ChandelierFire | lobby_chandelier, Garreg Mach | An emissive shader with distortion. Great for fire! |
+| ShaderfxShader218 | only_shadow, New Donk City | This shader doesn't render the model, only the shadow it casts, similar to Bayonetta's butterfly wings |

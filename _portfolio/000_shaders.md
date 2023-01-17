@@ -21,6 +21,7 @@ Here's a few shaders that I like to use, what they could be used for, and where 
 | ----------| ----------| ----------|
 | Standard Shaders |
 | sfx_naturereal00 | dyr_bg_village_set, Town and City | The most bare bones stage shader. A diffuse channel that supports vertex colors, but doesn't support shadows |
+| SFX_cliff_edge01 | dyr_ring_village_set, Town and City | A bare bones shader that supports alpha testing, great for static plants and leaves. Pro tip: disable culling on tree leaves that are close to the camera. |
 | guest_rcc_b | dys_guest_rcc_set, Town and City | A shader that only has a diffuse channel. No vertex colors, but supports shadows |
 | SFX_ring_citymetal | dyr_ring_village_set, Town and City | A simple shader that supports PRM. This unique PRM shader doesn't require a baked lighting map, but still supports shadows |
 

@@ -1,0 +1,27 @@
+---
+title: Hollow Bastion
+subtitle: trail_castle
+image: "https://ssb.wiki.gallery/images/thumb/e/ee/SSBU_Hollow_Bastion.png/800px-SSBU_Hollow_Bastion.png"
+alt: 
+
+caption:
+  title: NC
+  subtitle: 
+  thumbnail: "https://ssb.wiki.gallery/images/0/08/HollowBastionIconSSBU.png"
+---
+Dive to the Heart, the scene during Hazards On that this stage transitions to, is abbreviated as DtH
+
+# Wifi safety
+Similar to the Animal Crossing stages, certain models cause desyncs if their numshb, numatb, or numdlb are "blanked out". I'm currently unsure which specific models and files affect this, so for safety, try using a model.xmb that disables visibility.
+These models are:
+- islands_b_set
+- islands_set
+- waterfall_set
+
+# Background cutscene
+Similar to Northern Cave's, but the visual stdat has several new structs related to Diving (transition to DtH) and Climax (DtH). These include the model settings to determine which model is visible during which scene, as well as when to delay/play fade effects and animations.
+
+## Fade Type
+0 - Unloads/Loads almost instantly (ie the shadow caster model)
+1 - Fades to black (ie the background)
+2 - Fades to white (ie the ring)
